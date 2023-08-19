@@ -1,0 +1,43 @@
+
+
+.editdetail-main{
+    background-image: url(../Images/project\ bg\ img3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.editdetail-main-2{
+    border: 10px dotted rgba(255, 255, 255, 0.033);
+}
+.editdetail-base{
+    margin: 100px 0 100px 400px;
+    border: 5px solid white;
+    width: 40%;
+    background: rgba(255, 255, 255, 0.497);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px white;
+}
+
+.editdetail-input{
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 15px 0 15px 160px;
+}
+.editdetail-input:hover{
+    font-size: 18px;
+}
+
+
+.editdetail-button{
+    color: white;
+    background: orange;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    height: 30px;
+
+}
+.editdetail-button:hover{
+    font-size: 18px;
+}

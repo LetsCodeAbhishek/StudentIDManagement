@@ -1,0 +1,42 @@
+
+.detailh-main{
+    background-image: url(../Images/project\ bg\ img3.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center; 
+    padding: 200px 0 200px 0;
+    
+
+}
+
+.detailh-style{
+    padding-top: 20px;
+    width: 40%;
+    height: 300px;
+    border: 5px black solid;
+    background: rgba(255, 255, 255, 0.581);
+    box-shadow: 0 0 5px 5px ;
+    border-radius: 4px;
+    margin-left: 400px;
+    color: black;
+
+}
+.detailh-heading{
+    margin: 50px 0 0 0;
+}
+.detailh-heading:hover{
+    font-size: 50px;
+}
+.detailh-heading a{
+    color: orangered;
+    animation: demo4 infinite linear 3s ;
+}
+@keyframes demo4 {
+    50%{
+        color: blue;
+    }
+    100%{
+        color: orange;
+    }
+    
+}

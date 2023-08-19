@@ -1,0 +1,55 @@
+.getd-base{
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.645); 
+    border: 5px solid white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 100px 0 50px 200px;
+    box-shadow: 0 0 5px 5px white;
+    
+}
+.getd-base:hover{
+    background-color: rgba(0, 0, 0, 0.144);
+    color: white;
+}
+.getd-main{
+    background: linear-gradient(to right, grey, black);
+}
+.getd-img{
+    margin-top: 20px;
+}
+.getd-table{
+    margin: 0 0 20px 100px;
+}
+.getd-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.getd-button-1 a{
+    text-decoration: none;
+    color: black;
+    
+}
+.getd-button-1{
+    background-color: white;
+    margin-right: 10px;
+    
+}
+.getd-button-1:hover{
+    font-size: 20px;
+}
+.getd-button-2{
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+}
+.getd-button-2:hover{
+    font-size: 20px;
+}
+.getd-button{
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+

@@ -1,0 +1,48 @@
+
+
+.sign-main{
+    background-image: url(../Images/project\ bg\ img2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 100px 0 100px 0;
+}
+
+.sign-base{
+    margin-left: 420px;
+    width: 40%;
+    height: 600px;
+    border: 10px solid black;
+    padding-left: 100px;
+    background: rgba(0, 0, 0, 0.53);
+    color: black;
+    box-shadow: 0 0 5px 5px white;
+    border-radius: 10px;
+    padding-top: 20px;
+    
+}
+.sign-base:hover{
+    background: rgba(0, 0, 0, 0.33);
+
+}
+.sign-input{
+    display: block;
+    width: 250px;
+    margin: 10px 0 10px 0;
+    
+}
+.sign-input:hover{
+    font-size: 15px;
+}
+.sign-label{
+
+    color: white;   
+}
+
+.sign-button{
+    background-color: orange;
+    font-size: 15px;
+    font-weight: bold;
+}
+.sign-button:hover{
+    font-size: 20px;
+}

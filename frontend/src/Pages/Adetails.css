@@ -1,0 +1,50 @@
+
+
+.addDetail-base{
+    background-image: url(../Images/Tech3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+.addDetail-main{
+    color: black;
+    border: 5px solid black;
+    width: 50%;
+    height: 700px;
+    margin: 200px 0 200px 350px;
+    padding-top: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px black;
+}
+.addDetail-main:hover{
+    
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+.addDetail-input{
+    display: block;
+    width: 50%;
+    font-size: 18px;
+    margin: 20px 0 0 150px;
+    border-radius: 5px;
+
+}
+.addDetail-input:hover{
+    font-size: 20px;
+}
+
+.addDetail-button{
+    margin-top: 15px;
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}
+.addDetail-button:hover{
+    font-size: 20px;
+}

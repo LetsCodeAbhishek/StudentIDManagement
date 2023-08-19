@@ -1,0 +1,87 @@
+
+.home-main{
+   
+    background-image: url(./Images/tech2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    
+    animation: demo11 5s infinite linear alternate;
+}
+@keyframes demo11{
+
+    to{
+        background-image: url(./Images/Tech3.png);
+    }
+    
+}
+.home-base{
+    text-align: center;
+}
+
+.home-heading{
+    color: white;
+    padding: 50px 20px;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 200px 0 0 350px;
+    border: 2px solid white;  
+    background-color: rgba(0, 0, 0, 0.691); 
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px white;
+}
+.home-heading:hover{
+background: rgba(0, 0, 0, 0.864);
+}
+
+
+.home-button{
+    height: 50px;
+    margin: 30px 0 100px 330px;
+    font-size: 18px;
+    font-weight: bold;
+    
+    
+}
+.home-button a{
+    color: black;
+    text-decoration: none;
+}
+.home-button-1{
+    color: white;
+    background: orange;
+    margin-right: 30px;
+    border: none;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.home-button-1:hover{
+    background:  rgba(236, 154, 2, 0.9);
+    font-size: 20px;
+}
+.home-button-2{
+    color: black;
+    border: none;
+    padding: 10px 12px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+.home-button-2:hover{
+    background:  rgba(207, 207, 207,0.9);
+    font-size: 20px;
+}
+
+.color-change{
+    color: orange;
+    animation: demo1 1s infinite alternate;
+    text-decoration: underline;
+}
+@keyframes demo1{
+    to{
+        color: white;
+       
+    }
+}
+
+
+
